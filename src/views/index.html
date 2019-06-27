@@ -1,0 +1,19 @@
+{{each result}}
+<div>
+<div>
+        <img src="{{$value.pic}}" alt="">
+</div>
+    <div>
+        <div>
+            <div>{{$value.d_title}}</div>
+        </div>
+        <div>
+            <div>天猫价&nbsp;<span>¥{{$value.yuanjia}}</span></div>
+            <div>已售<span>27.6万</span>件</div>
+        </div>
+        <div>
+            <div>券后价&nbsp;<i>¥</i><span>{{$value.jiage}}</span></div>
+        </div>
+</div>
+</div>
+{{/each}}
